@@ -883,6 +883,7 @@ var render = function render() {
 };
 
 render();
+store.subscribe(render);
 var divToggle = document.querySelector('.toggle');
 var counter = document.querySelector('h1');
 var btnIncrease = document.querySelector('#increase');
